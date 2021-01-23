@@ -1,0 +1,263 @@
+.navbar-nav li {
+     font-size: 18px;	
+}
+
+#myhead h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	line-height: 58px;
+	text-align: left;
+}
+
+#myhead p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	line-height: 34px
+	color: #BED9E8;
+}
+
+#myhead span {
+	color: blue;
+}
+
+.align-items-center {
+	text-align: center;
+}
+
+.mydesign {
+	background: #FFFFFF;
+	padding: 40px 20px;
+    
+}
+
+.mydesign:hover {
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	transition: box-shadow .5s;
+	transform: translate(0px,-10px);
+	transition: transform .5s;
+}
+
+.mydesign h3 {
+	font-width: bold;
+
+}
+
+.mydesign p {
+	color: #9A9494;
+}
+
+.mydesign a {
+    color: #2DB36C;
+    text-decoration: none;	
+
+}
+
+#service-section {
+	background: #f1f1f1;
+	opacity: 0.6;
+	padding: 30px 15px;
+}
+
+#service-section h3 {
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 29px;
+	margin-top: 15px;
+	color: #161c2d;
+}
+
+#service-section p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 21px;
+	font-weight: bold;
+	color: #333;
+	margin-top: 15px;
+}
+
+.fa-code, .fa-qrcode, .fa-icons {
+	color: green;
+	font-size: 2em;
+}
+
+#image-div img {
+	height: 414px; 
+	width: 500px;
+}
+
+#another-sersec {
+	background: #f1f1f1;
+}
+
+#another-sersec .fab, .fas {
+	color: green;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#footer-section {
+	padding: 10px;
+	background-color: #F1F4F8;
+	font-family: 'Roboto', sans-serif;
+}
+
+.social-icon a {
+	display: inline-block;
+	color: black;
+}
+
+.social-icon a:hover {
+	
+	color: #333;
+}
+
+.fixed-icons a {
+	display: inline-block;
+	position: fixed;
+	z-index: 1;
+	font-size: 3em;
+	color: orange;
+}
+
+.fixed-icons a:hover {
+	color: tomato;
+}
+
+.resource-section, .count-section {
+	padding: 120px 100px;
+	background-color: #F9FBFD;
+}
+.downbtn {
+	background-color: rgb(66, 186, 150);
+	border-color: rgb(66, 186, 150);
+}
+
+.downbtn:hover {
+	background-color: #389e7f;
+	border-color: #389e7f;
+	transform: translate(0px, -3px); 
+	transition: transform .5s;
+}
+
+.service {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 40px 0px 0px;
+}
+
+.service p {
+	color: rgb(66, 186, 150);
+}
+
+.form-card:hover {
+	transform: translate(0px, -8px);
+	transition: transform 1s;	
+}
+
+.sed-reso {
+	margin-top: 100px;
+}
+
+.for-txt {
+	position: relative;
+	top: 40px;
+	animation-name: heading;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+.roate-img {
+	width: 100%;
+	background-color: black;
+	transform: 
+	matrix3d(0.819152, 0, 0.573576, 
+		0, -0.148453, 0.965926, 0.212012, 
+		0, -0.554032, -0.258819, 0.79124, 
+		0, 0, 0, 0, 1);
+	box-shadow: rgba(80, 102, 144, 0.1) 25px 60px 125px -25px, 
+				rgba(0, 0, 0, 0.2) 16px 40px 75px -40px
+}
+
+.same-txt {
+	color: #869AB8;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	margin: 15px 0px;
+}
+
+.same-txt2 {
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	font-size: 18px;	
+}
+
+.counter {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 80px 0px 0px;
+}
+
+.count, .counter-24, .counter-7, .spc-char {
+	font-family: 'Roboto', sans-serif;
+	color: #474C5A;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.sametxt {
+	font-family: 'Roboto', sans-serif;
+	color: #474C5A;
+}
+
+.cursor {
+	display: inline-block;
+	width: 3px;
+	background-color: rgb(66, 186, 150);
+	animation: blik 1s infinite;
+}
+
+@keyframes blik {
+	0% {background-color: rgb(66, 186, 150);}
+	50% {background-color: white;}
+	100% {background-color: rgb(66, 186, 150);}
+}
+
+@keyframes heading {
+	0% {right: -200px; top: 40px;}
+	100% {right: 0px; top: 40px;}
+}
+
+.for-txt2 {
+	position: relative;
+	animation-name: ani-two;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ani-two {
+	0% {left: -200px;}
+	100% {left: 0px;}
+}
+
+
+@media screen and (max-width: 536px) {
+	#image-div img {
+          width: 300px;
+	}
+}
+
+@media screen and (max-width: 556px) {
+	.resource-section, .count-section {
+		padding: 40px 20px;
+	}	
+	.counter {
+		padding: 0px;
+	}
+}
+
+
+
+
+
+
+
